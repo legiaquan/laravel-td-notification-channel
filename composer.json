@@ -1,0 +1,39 @@
+{
+    "name": "mkohei/laravel-td-notification-channel",
+    "description": "Treasure Data Notification Channel for Laravel",
+    "require": {
+        "php": "^8.2",
+        "guzzlehttp/guzzle": "^7.9.2",
+        "illuminate/notifications": "^10.0|^11.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.6.12",
+        "phpunit/phpunit": "^11.5.3",
+        "pestphp/pest": "^v3.7.4"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mkohei\\LaravelTdNotificationChannel\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mkohei\\LaravelTdNotificationChannel\\Test\\": "tests/"
+        }
+      },
+    "authors": [
+        {
+            "name": "Kohei Matsumoto",
+            "email": "baberugaberiimeronnv5@gmail.com"
+        }
+    ],
+    "scripts": {
+        "test": "vendor/bin/pest"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
