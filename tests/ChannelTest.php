@@ -6,9 +6,9 @@ use GuzzleHttp\Client;
 use GuzzleHttp\Psr7\Response;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Notifications\Notification;
-use Mkohei\LaravelTdNotificationChannel\Exceptions\CloudNotSendNotification;
-use Mkohei\LaravelTdNotificationChannel\TreasureDataChannel;
-use Mkohei\LaravelTdNotificationChannel\TreasureDataMessage;
+use QuanLe\LaravelTdNotificationChannel\Exceptions\CloudNotSendNotification;
+use QuanLe\LaravelTdNotificationChannel\TreasureDataChannel;
+use QuanLe\LaravelTdNotificationChannel\TreasureDataMessage;
 use Mockery as m;
 
 beforeEach(function () {

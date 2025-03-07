@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Arr;
-use Mkohei\LaravelTdNotificationChannel\TreasureDataMessage;
+use QuanLe\LaravelTdNotificationChannel\TreasureDataMessage;
 
 beforeEach(function () {
     $this->message = new TreasureDataMessage();

@@ -1,6 +1,6 @@
 <?php
 
-namespace Mkohei\LaravelTdNotificationChannel;
+namespace QuanLe\LaravelTdNotificationChannel;
 
 class TreasureDataMessage
 {

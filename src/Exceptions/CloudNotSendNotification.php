@@ -1,6 +1,6 @@
 <?php
 
-namespace Mkohei\LaravelTdNotificationChannel\Exceptions;
+namespace QuanLe\LaravelTdNotificationChannel\Exceptions;
 
 use GuzzleHttp\Psr7\Response;
 

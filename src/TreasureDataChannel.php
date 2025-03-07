@@ -1,12 +1,12 @@
 <?php
 
-namespace Mkohei\LaravelTdNotificationChannel;
+namespace QuanLe\LaravelTdNotificationChannel;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7\Response;
 use Illuminate\Notifications\Notification;
 use Illuminate\Support\Arr;
-use Mkohei\LaravelTdNotificationChannel\Exceptions\CloudNotSendNotification;
+use QuanLe\LaravelTdNotificationChannel\Exceptions\CloudNotSendNotification;
 
 class TreasureDataChannel
 {
@@ -24,7 +24,7 @@ class TreasureDataChannel
      * @param  \Illuminate\Notifications\Notification  $notification
      * @return \GuzzleHttp\Psr7\Response
      *
-     * @throws \Mkohei\LaravelTdNotificationChannel\Exceptions\CloudNotSendNotification
+     * @throws \QuanLe\LaravelTdNotificationChannel\Exceptions\CloudNotSendNotification
      */
     public function send(mixed $notifiable, Notification $notification): ?Response
     {
